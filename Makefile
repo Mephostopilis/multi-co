@@ -1,5 +1,5 @@
-hpaths := -I. -I./../libco
-lpaths := -L. -L./../libco/lib
+hpaths := -I. -I./libco
+lpaths := -L. -L./libco/lib
 libraries := -lcolib -lpthread -ldl -lm
 shared := -fPIC -shared
 

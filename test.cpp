@@ -7,15 +7,15 @@
 #include <stdint.h>
 #include <string.h>
 #include <assert.h>
+#include <iostream>
 #include <vector>
+#include <queue>
 #include <thread>
 #include <map>
 #include <mutex>
-#include <iostream>
 
-std::mutex  m1;  // for v
+std::mutex       mtx;  // for v
 std::vector<int> v;
-std::queue<
 
 struct routine_context {
 	int arg;
